@@ -11,7 +11,7 @@ const reducer = (state, action) => {
                 track_list: action.payload,
                 heading: 'Search Results'
             };
-        defalut:
+        default:
             return state;
     }
 }
